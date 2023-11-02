@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/Work/Projects/raytracer/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE   -O3 -DNDEBUG -o CMakeFiles\\raytracer.dir\\main.cpp.obj -c D:\\Work\\Projects\\raytracer\\main.cpp",
+  "file": "D:/Work/Projects/raytracer/main.cpp",
+  "output": "CMakeFiles/raytracer.dir/main.cpp.obj"
+}
+]
