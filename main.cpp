@@ -12,6 +12,7 @@ int main(){
     //P3 = colours are in ASCII, image_width columns and image_width rows, 255 is the max colour, then we define the RGB triplets in the for loop
 
     for (int j = 0; j < image_height; ++j) {
+        std::clog << "\rScanlines remaining: " << (image_height - j) << ' ' << std::flush; //This is a progress indicator for our output. Track progress of render + check for infinite loop + other problems
         for (int i = 0; i < image_width; ++i) {
             auto r = double(i) / (image_width-1);
             auto g = double(j) / (image_height-1);
@@ -24,4 +25,6 @@ int main(){
             std::cout << ir << ' ' << ig << ' ' << ib << '\n';
         }
     }
+
+    std::clog << "\rDone.                 \n";
 }
